@@ -30,6 +30,15 @@ public class Calculadora {
 	
 	
 	
+	public double dividir(double dividendo, double divisor) {
+		
+		double cociente = dividendo / divisor;
+		
+		return cociente;		
+	}//fin dividir
+	
+	
+	
 	
 		
 
