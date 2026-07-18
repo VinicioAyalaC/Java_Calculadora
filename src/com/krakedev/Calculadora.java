@@ -39,6 +39,15 @@ public class Calculadora {
 	
 	
 	
+	public double promediar(double valor1, double valor2, double valor3) {
+		
+		double promedio = (valor1 + valor2 + valor3)/3.0;
+				
+		return promedio;
+	}// fin promediar
+	
+	
+	
 	
 		
 
