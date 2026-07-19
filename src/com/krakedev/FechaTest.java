@@ -1,6 +1,6 @@
 package com.krakedev;
 
-public class TestFecha {
+public class FechaTest {
 
 	public static void main(String[] args) {
 		
