@@ -8,18 +8,18 @@ public class VehiculoTest {
 		Vehiculo v1= new Vehiculo();		
 		
 		System.out.println("---------Vehiculo 1: Inicializando");
-		System.out.println("Marca:  " + v1.marca);
-		System.out.println("Modelo: " + v1.modelo);
-		System.out.println("Año:    " + v1.anio);
+		System.out.println("Marca:  " + v1.getMarca());
+		System.out.println("Modelo: " + v1.getModelo());
+		System.out.println("Año:    " + v1.getAnio());
 		
-		v1.marca= "Hyundai";
-		v1.modelo= "Jep";
-		v1.anio="2026";
+		v1.setMarca("Hyundai");
+		v1.setModelo("Jep");
+		v1.setAnio("2026");
 		
 		System.out.println("---------Vehiculo 1: Con datos");
-		System.out.println("Marca:  " + v1.marca);
-		System.out.println("Modelo: " + v1.modelo);
-		System.out.println("Año:    " + v1.anio);
+		System.out.println("Marca:  " + v1.getMarca());
+		System.out.println("Modelo: " + v1.getModelo());
+		System.out.println("Año:    " + v1.getAnio());
 		
 		
 		System.out.println("\n"); //salto de linea
@@ -27,18 +27,18 @@ public class VehiculoTest {
 		Vehiculo v2= new Vehiculo();		
 		
 		System.out.println("---------Vehiculo 2: Inicializando");
-		System.out.println("Marca:  " + v2.marca);
-		System.out.println("Modelo: " + v2.modelo);
-		System.out.println("Año:    " + v2.anio);
+		System.out.println("Marca:  " + v2.getMarca());
+		System.out.println("Modelo: " + v2.getModelo());
+		System.out.println("Año:    " + v2.getAnio());
 		
-		v2.marca= "Hyundai";
-		v2.modelo= "Jep";
-		v2.anio="2026";
+		v2.setMarca("Hyundai") ;
+		v2.setMarca("Jep");
+		v2.setAnio("2026");
 		
 		System.out.println("---------Vehiculo 2: Con datos");
-		System.out.println("Marca:  " + v2.marca);
-		System.out.println("Modelo: " + v2.modelo);
-		System.out.println("Año:    " + v2.anio);
+		System.out.println("Marca:  " + v2.getMarca());
+		System.out.println("Modelo: " + v2.getModelo());
+		System.out.println("Año:    " + v2.getAnio());
 		
 
 	}
