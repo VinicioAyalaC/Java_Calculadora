@@ -1,6 +1,6 @@
 package com.krakedev;
 
-public class TestCalculadora {
+public class CalculadoraTest {
 
 	public static void main(String[] args) {
 		

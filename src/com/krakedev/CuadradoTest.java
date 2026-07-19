@@ -1,12 +1,12 @@
 package com.krakedev;
 
-public class TestCuadrado {
+public class CuadradoTest {
 
 	public static void main(String[] args) {
 		
 		Cuadrado c1 = new Cuadrado();
 		
-		c1.lado = 12;
+		c1.setLado(12);
 		double area1 = c1.calcularArea();
 		System.out.println("El Area del cuadrado es: " + area1);
 		

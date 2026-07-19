@@ -1,6 +1,6 @@
 package com.krakedev;
 
-public class TestMensajeria {
+public class MensajeriaTest {
 
 	public static void main(String[] args) {
 		

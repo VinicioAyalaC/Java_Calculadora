@@ -41,6 +41,6 @@ public class VehiculoTest {
 		System.out.println("Año:    " + v2.getAnio());
 		
 
-	}
+	}//main
 
-}
+}//principal
