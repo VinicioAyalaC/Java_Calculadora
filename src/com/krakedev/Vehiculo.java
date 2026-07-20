@@ -4,13 +4,41 @@ package com.krakedev;
 
 public class Vehiculo {
 	
+	
+	// variables/atributos
 	private String marca;
 	private String modelo;
 	private String anio;
 	private double valor;
 	
 	
-	// get & set
+	// constructores
+	
+	
+	
+	//Constructor vacio o por defecto
+	public Vehiculo() {
+		
+	}
+	
+	
+	//Constructor con un atributo
+	public Vehiculo(String marca) {
+		this.marca  = marca;	
+	}
+	
+	
+	
+	//Contructor con 3 atributos
+	public Vehiculo(String marca, String modelo, String anio) {
+		this.marca  = marca;
+		this.modelo = modelo;
+		this.anio   = anio;
+	}
+	
+	
+	
+	// metodos: get & set
 	public String getMarca() {
 		return marca;
 	}
