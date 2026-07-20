@@ -8,11 +8,6 @@ public class Cuadrado {
 	
 	
 	// constructor	-----------------------------------------------
-	public Cuadrado() {
-		
-	}
-	
-	
 	public Cuadrado(double lado) {
 		this.lado = lado;
 	}	
