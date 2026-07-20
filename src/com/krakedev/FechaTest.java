@@ -2,14 +2,9 @@ package com.krakedev;
 
 public class FechaTest {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) {		
 		
-		
-		Fecha f1 = new Fecha();
-		
-		f1.setAnio(2026);
-		f1.setMes(2);
-		f1.setDia(21);
+		Fecha f1 = new Fecha(21, 2, 2026);				
 		
 		System.out.println("Año : "+f1.getAnio());
 		System.out.println("Mes : "+f1.getMes());

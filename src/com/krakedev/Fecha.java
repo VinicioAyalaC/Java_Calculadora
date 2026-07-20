@@ -2,27 +2,27 @@ package com.krakedev;
 
 public class Fecha {
 	
+	
+	//--- Atributos
 	private int dia;
 	private int mes;
 	private int anio;
 	
 	
-	
-	
-	//********Metodos para acceder a los atributos*********//
-	// en automatico: click derecho
-	// Source
-	// Generate Getters and Setters...
-	
-	
+	//--- Constructor
+	public Fecha( int dia, int mes, int anio) {
+		this.dia  = dia;
+		this.mes  = mes;
+		this.anio = anio;
+	}
+		
 	
 	//----  get: para obtener valor
 	
 	public int getDia() 	{		return dia;  	}
 	public int getMes() 	{		return mes;  	}
 	public int getAnio() 	{		return anio;	}
-	
-	
+		
 	
 	//----  set: para modificar valor
 	
